@@ -1,0 +1,16 @@
+
+main{
+       width: 20%;
+       margin: auto;
+       padding: 50px;
+}
+
+main>form{
+       display: flex;
+       flex-direction: column;
+       
+}
+
+input,button{
+       padding: 10px;
+}

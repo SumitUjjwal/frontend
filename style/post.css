@@ -1,0 +1,48 @@
+/* data table */
+
+table {
+       font-family: Arial, Helvetica, sans-serif;
+       border-collapse: collapse;
+       width: 60%;
+       margin: auto;
+       margin-top: 50px;
+       text-align: center;
+}
+
+table td,
+table th {
+       border: 1px solid #ddd;
+       padding: 8px;
+       text-align: center;
+}
+
+table tr:nth-child(even) {
+       background-color: #f0f0f0c0;
+}
+
+table tr:hover {
+       background-color: #ddd;
+}
+
+table th {
+       padding-top: 12px;
+       padding-bottom: 12px;
+       text-align: left;
+       background-color: #000;
+       color: white;
+       text-align: center;
+}
+
+#postForm>form{
+       margin: 50px auto;
+       /* border: 1px solid grey; */
+}
+
+#postForm>form>input{
+       padding: 10px;
+}
+
+#addPost{
+       background-color: black;
+       color: white;
+}
